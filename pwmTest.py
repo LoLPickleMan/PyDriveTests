@@ -5,7 +5,7 @@ GPIO.setmode(GPIO.BOARD)
 
 GPIO.setup(7, GPIO.OUT)
 
-t1 = GPIO.PWM(7, 500)
+t1 = GPIO.PWM(7, 8000)
 
 t1.start(0)
 
