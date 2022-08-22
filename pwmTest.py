@@ -10,7 +10,7 @@ t1 = GPIO.PWM(7, 500)
 t1.start(0)
 
 t1.ChangeDutyCycle(7.5)
-time.sleep(3)
+time.sleep(300)
 
 t1.stop()
 
