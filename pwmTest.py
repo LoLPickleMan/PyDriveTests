@@ -8,6 +8,7 @@ GPIO.setup(7, GPIO.OUT)
 t1 = GPIO.PWM(7, 50)
 
 t1.start(0)
+print("strating running")
 #some changed
 t1.ChangeDutyCycle(7.5)
 time.sleep(30)
