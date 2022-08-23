@@ -5,7 +5,7 @@ GPIO.setmode(GPIO.BOARD)
 
 GPIO.setup(7, GPIO.OUT)
 
-t1 = GPIO.PWM(7, 50)
+t1 = GPIO.PWM(7, 500)
 
 t1.start(0)
 print("strating running")
